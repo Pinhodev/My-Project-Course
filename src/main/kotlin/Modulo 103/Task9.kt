@@ -1,18 +1,24 @@
 package lms_129
-import kotlin.math.roundToInt
 
 fun task9(temperature: String): String {
-    val temp = temperature.dropLast(1).toInt()
 
+    val number = temperature.substring(0,temperature.length-1).toDouble()
     val result = when (temperature.last().toString().uppercase()) {
-        "C" -> { ((1.8 * temp + 32).roundToInt()).toString() +"F"}
-        "F" -> { ((temp - 32) * 0.5556).roundToInt().toString()+"C" }
-    else -> "Temperature Invalid "
+        "C" -> {
+            (number * 9 / 5 + 32).toInt().toString()+"F"
+        }
+        
+        "F" -> {
+            ((number - 32) * 5 / 9).toInt().toString()+"C"
+        }
+        
+        else -> "Temperature Invalid "
     }
     return (result)
-    }
-fun main (){
-    val temperature= "-30C" // Tests = -30C && 50f && -100c && 20a
+}
+
+fun main() {
+    val temperature = "-90C" // Tests = -30C && 50f && -100c && 20a
     println("Assume that")
     println("¤ temperature is $temperature")
     println("Then")

@@ -1,63 +1,42 @@
 package lms_129
 
+//import java.util.regex.Pattern
+
 fun task10(password: String): Boolean {
-
-/*
-//Length Min = 6 characters and Max = 10 characters.
-    val length = password.length in 6..10
-    println("length $length")
-
-//At least 1 letter between [a-z] and At least 1 letter between [A-Z]
-    val lower = password.firstOrNull { it.isLowerCase() } != null
-    println("lower $lower")
-
-//At least 1 letter between [A-Z]
-    val upper = password.firstOrNull { it.isUpperCase() } != null
-    println("upper $upper")
-
-//Number between [0-9].
-    val digit = password.firstOrNull { it.isDigit() } != null
-    println("digit $digit")
-
-//Number between [$#@].
-    val character =
-        password.contains('$') || password.contains('#') || password.contains('@')
-    println("character $character")
-
-return length && lower && upper && digit && character
- */
-
-    return  (password.length in 6..10)                    &&
+    
+    return (password.length in 6..10) &&
             (password.firstOrNull { it.isLowerCase() } != null) &&
             (password.firstOrNull { it.isUpperCase() } != null) &&
-            (password.firstOrNull { it.isDigit() } != null)     &&
-         //Refactoring later
-    (password.contains('$') || password.contains('#') || password.contains('@'))
-
-
-//val result = (password.contains(^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{4,}$ ))
-//println(result)
-//return result
+            (password.firstOrNull { it.isDigit() } != null) &&
+            (password.contains('$') || password.contains('#') || password.contains('@'))
 }
-fun main () {
-    val password = "aA1$12"
-    println("Result is " + task10(password)) // true
-    val length = "aA1$"
-    println("Length " + task10(length)) // false
-    val lower = "AA1$12"
-    println("lower " + task10(lower)) // false
-    val upper = "aa1$12"
-    println("upper " + task10(upper)) // false
-    val digit = "aAA@aa"
-    println("digit " + task10(digit)) // false
-    val character = "aA1$"
-    println("character " + task10(character)) // false
+/*
+////Code with RegEx
+        Link :  https://zetcode.com/kotlin/regularexpressions/
+                https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+                https://desarrollowp.com/blog/tutoriales/buscando-patron-con-expresiones-regulares/
+*/
 
+///Refactoring with Regex
+fun regex(password: String): Boolean {
+    
+    //val condition = ("(?=.+[a-z])(?=.+[A-Z])(?=.+[0-9])(?=.+[@$#]){6,10}")
+    //val pattern = Pattern.compile(condition)
+    //val result = pattern.matcher(password)
+    //return result.find()
+    
+    //val condition = ("(?=.+\\w)(?=.+\\W){6,10}").toRegex()
+    val condition = ("(?=.+[a-z])(?=.+[A-Z])(?=.+[0-9])(?=.+[@$#]){6,10}").toRegex()
+    return condition.containsMatchIn(password)
+}
 
-    if (task10(password) == true ){
-        println ("A password is valid")
+fun main() {
+    
+    val password = "A1A@@gus"
+    if (task10(password)) {
+        println("A password is valid")
     } else {
-        println ("A password is not valid")
+        println("A password is not valid")
     }
-
+    println("Regex is " + regex(password))
 }
