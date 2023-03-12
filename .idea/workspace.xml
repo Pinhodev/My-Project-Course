@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dfc0fd8c-e216-4be9-b4a3-6670e7819b17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task1 Print.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task10 Assessments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task2 Print.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task3 Perimeter Circle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task4 Area Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task5 Swap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task6 Area Trapezoid..kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task7 Count Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task8 Characters Times.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 102/Task9 Character Present.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task1 Add Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task10 Validate Password.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task2 Prime Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task3 Factorial Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task4 Divisible by Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task5 Count Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task6 Reversed Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task7 Raising to the Power.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task8 Add all of its Digits..kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modulo 103/Task9 Convert Temperature.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +48,10 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/Desktop/My-AtomicKotlin&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/Desktop/My-Project-Course&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

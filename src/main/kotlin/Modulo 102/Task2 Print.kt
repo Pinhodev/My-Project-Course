@@ -1,3 +1,5 @@
+@file:JvmName("Task1_PrintKt")
+
 package lms_127
 
 fun task2 () {
